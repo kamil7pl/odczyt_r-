@@ -6,6 +6,7 @@
 </head>
 <body>
     <?php
+	//r+ Robi to, co r oraz pozwala zapisywać.
 	$nazwa="testowy.txt";
 		if(@fopen($nazwa,"r+")){
 		$uchwyt=fopen($nazwa,"r+");
